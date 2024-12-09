@@ -51,9 +51,7 @@ const EmailSection = () => {
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
-          I&apos;m currently looking for new opportunities, my inbox is always
-          open. Whether you have a question or just want to say hi, I&apos;ll
-          try my best to get back to you!
+          Je suis actuellement à la recherche de nouvelles opportunités, ma boîte de réception est toujours ouverte. Que vous ayez une question ou que vous vouliez simplement dire bonjour, je ferai de mon mieux pour vous répondre !
         </p>
         <div className="socials flex flex-row gap-2">
           <Link href="github.com">
@@ -64,7 +62,7 @@ const EmailSection = () => {
           </Link>
         </div>
       </div>
-      <div>
+      {/* <div>
         {emailSubmitted ? (
           <p className="text-green-500 text-sm mt-2">
             Email sent successfully!
@@ -125,7 +123,7 @@ const EmailSection = () => {
             </button>
           </form>
         )}
-      </div>
+      </div> */}
     </section>
   );
 };
